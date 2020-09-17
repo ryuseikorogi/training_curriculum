@@ -39,3 +39,8 @@ class CalendarsController < ApplicationController
 
   end
 end
+
+     #   #wday_num = wday_num - 7
+     # end
+     days = { month: (@todays_date + x).month, date: (@todays_date+x).day, plans: today_plans}
+     >>>>>>> parent of 94c95ce... Merge pull request #8 from ryuseikorogi/second_training
